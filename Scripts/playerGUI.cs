@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//No futuro serao imagens, mas por enquanto coloquei para mostrar os valores.
+
+using UnityEngine;
 using System.Collections;
 
 public class playerGUI : MonoBehaviour 

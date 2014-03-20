@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// Script que serve para que o personagem se movimente junto as plataformas, transformando-o em um child da plataforma durante o contato do collider com a plataforma.
+
+using UnityEngine;
 using System.Collections;
 
 public class platformMovingAlong : MonoBehaviour 
