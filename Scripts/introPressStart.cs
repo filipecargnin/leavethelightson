@@ -1,6 +1,4 @@
-﻿// Script para a tela inicial
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class introPressStart : MonoBehaviour 

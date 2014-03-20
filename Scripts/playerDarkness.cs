@@ -33,7 +33,7 @@ public class playerDarkness : MonoBehaviour
 		}
 		
 		
-// If the player is still in the dark, start timer and kill player at the end, if he doesn't move to the light.
+// If the player is in the dark, start timer and kill player at the end.
 		if(darknessPL && darknessSC)
 		{
 			if(!audio.isPlaying)

@@ -1,6 +1,4 @@
-﻿// Script que fecha o jogo, ao se pressionar a tecla esc. Depois temos que adicionar o botao do joystick.
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class introQuitGame : MonoBehaviour 

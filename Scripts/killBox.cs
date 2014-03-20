@@ -1,6 +1,4 @@
-﻿// Script que pode ser utilizado nos buracos ou qualquer ameaça ao jogador, que ao tocar nela, e morto imediatamente.
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class killBox : MonoBehaviour 

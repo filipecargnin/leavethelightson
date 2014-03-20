@@ -1,6 +1,4 @@
-﻿// Este script controla o sistema de iluminaçao do personagem, pressionando a tecla alt, que dura de acordo com o numero de vagalumes.
-
-// Caso eu coloque mais luzes para iluminar o player, terei q criar for loops para cada luz. Alterar aqui, no collectibles e no playerDarkness.
+﻿// Caso eu coloque mais luzes para iluminar o player, terei q criar for loops para cada luz. Alterar aqui, no collectibles e no playerDarkness.
 //
 //
 //
@@ -34,7 +32,7 @@ public class playerLight : MonoBehaviour {
 	void FixedUpdate () 
 	{
 
-// Check if the player has matches. If he has, take one away and light the character.
+// Check if the player has matches. ***********If he has, take one away.
 		if(player.GetComponent<matches>().numMatches > 0)
 		{
 			if(Input.GetButtonDown("Fire2") && !lit)

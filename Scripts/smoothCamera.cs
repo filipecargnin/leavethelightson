@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
  
-//Nao consegui fazer funcionar direito, por isso, nao esta nem ativa. 
-
 public class smoothCamera : MonoBehaviour
 {
  

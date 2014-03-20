@@ -87,7 +87,7 @@ public class playerMovement : MonoBehaviour
 			jumping = false;
 		}
 
-// Continue jumping, pressure sensitive jump
+// Continue jumping		
 		if(jumping && Input.GetButton("Jump") && maxHeight < 2 && !running && canJump)
 		{
 			moveDirection.y += 5;
@@ -106,14 +106,14 @@ public class playerMovement : MonoBehaviour
 			canJump = false;
 		}
 			
-// Horizontal movement on jump (walk)
+// Move on jump (walk)
 		if(!grounded && !running)
 		{	
 			moveDirection.x = -Input.GetAxis("Horizontal");
 			moveDirection.x *= walkAir;
 		}
 		
-// Horizontal movement on jump (run)
+// Move on jump (run)
 		if(!grounded && running)
 		{			
 			moveDirection.x = -Input.GetAxis("Horizontal");
@@ -136,7 +136,7 @@ public class playerMovement : MonoBehaviour
 		}
 		else
 		{
-
+//			Debug.Log("nada");
 		}
 			
 // Rotate to face the direction of the movement

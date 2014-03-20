@@ -1,6 +1,4 @@
-﻿// Script para os vagalumes e os fosforos. Talvez seja melhor juntar o script que posiciona os fosforos com este.
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class collectibles : MonoBehaviour 
@@ -30,8 +28,7 @@ public class collectibles : MonoBehaviour
 		}
 		if(this.tag == "colect_big")
 		{
-			lights[0].GetComponent<playerLight>().maxTime += 40;
-			lights[0].GetComponent<playerLight>().fireflies += 20;
+			powerUp ++;
 		}
 		if(this.tag == "match")
 		{
